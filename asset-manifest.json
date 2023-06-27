@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AI-Interactions/hello-world/static/css/main.073c9b0a.css",
-    "main.js": "/AI-Interactions/hello-world/static/js/main.4e0519c2.js",
-    "static/js/787.a9120f67.chunk.js": "/AI-Interactions/hello-world/static/js/787.a9120f67.chunk.js",
-    "index.html": "/AI-Interactions/hello-world/index.html",
-    "main.073c9b0a.css.map": "/AI-Interactions/hello-world/static/css/main.073c9b0a.css.map",
-    "main.4e0519c2.js.map": "/AI-Interactions/hello-world/static/js/main.4e0519c2.js.map",
-    "787.a9120f67.chunk.js.map": "/AI-Interactions/hello-world/static/js/787.a9120f67.chunk.js.map"
+    "main.css": "/AI-Interactions/static/css/main.073c9b0a.css",
+    "main.js": "/AI-Interactions/static/js/main.b808e803.js",
+    "static/js/787.a9120f67.chunk.js": "/AI-Interactions/static/js/787.a9120f67.chunk.js",
+    "index.html": "/AI-Interactions/index.html",
+    "main.073c9b0a.css.map": "/AI-Interactions/static/css/main.073c9b0a.css.map",
+    "main.b808e803.js.map": "/AI-Interactions/static/js/main.b808e803.js.map",
+    "787.a9120f67.chunk.js.map": "/AI-Interactions/static/js/787.a9120f67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.4e0519c2.js"
+    "static/js/main.b808e803.js"
   ]
 }
