@@ -1,8 +1,19 @@
 import './App.css';
 
+async function myFunction() {
+  const userstring = await users.find();
+  document.getElementById("myText").innerHTML = userstring;
+}
 function App() {
   return (
-    <h1>Hello World!</h1>
+      <html>
+      <body onLoad="myFunction()">
+        <div>
+          <h1>Hello World!\n</h1>
+          <h2><span id="myText"></span></h2>
+        </div>
+      </body>
+      </html>
   );
 }
 
