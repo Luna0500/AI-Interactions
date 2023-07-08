@@ -1,8 +1,8 @@
 import './App.css';
 
 async function myFunction() {
-  const userstring = await users.find();
-  document.getElementById("myText").innerHTML = userstring;
+  const users = db.getCollection("users")
+  document.getElementById("myText").innerHTML = await users.find();
 }
 function App() {
   return (
