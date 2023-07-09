@@ -1,6 +1,14 @@
 const { MongoClient } = require("mongodb");
 import './App.css';
 
+function App() {
+    return (
+        <h1>Hello World!</h1>
+    );
+}
+
+export default App;
+
 // Replace the following with your Atlas connection string
 const url = "mongodb+srv://test_user_1:OSUqUrmcCosshPAf@cluster0.pkouqkz.mongodb.net/test?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true";
 const client = new MongoClient(url);
@@ -40,11 +48,3 @@ async function run() {
     }
 }
 run().catch(console.dir);
-
-function App() {
-    return (
-    <h1>Hello World!</h1>
-    );
-}
-
-export default App;
