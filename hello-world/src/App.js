@@ -46,9 +46,7 @@ function App() {
         <html>
         <div>
             <h1>Hello World!</h1>
-            <script>
-                document.write(5 + 6);
-            </script>
+            document.write(5 + 6);
         </div>
         </html>
     );
