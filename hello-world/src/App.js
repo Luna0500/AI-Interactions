@@ -42,14 +42,15 @@ async function run() {
 run().catch(console.dir);
 
 function App() {
-    return (<html>
+    return (
+        <html>
         <div>
-        <h1>Hello World!</h1>;
-        <h2 id="Doc"></h2>
+            <h1>Hello World!</h1>;
+            <h2 id="Doc"></h2>
+            <script>
+                document.write(5 + 6);
+            </script>
         </div>
-        <script>
-        document.getElementById("Doc").innerHTML = myDoc;
-        </script>
         </html>
     );
 }
